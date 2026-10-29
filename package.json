@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-uspto-office-actions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "USPTO patent prosecution history: office action full text, examiner citations, claim-level rejections (35 U.S.C. 101/102/103/112), enriched (AI/ML-extracted) citation metadata, and Commissioner final decisions on patent application petitions — the USPTO's own patent-examination records.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-uspto-office-actions": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uspto-office-actions"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-uspto-office-actions.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/uspto-office-actions",
   "pipeworx": {
-    "sourceHash": "v1-e90bae79d7322ebe89bfc91c359a157ce71d7672c54e104eb8d3bdd34557dc0e",
-    "sourceCommit": "0f33463aa47677f38e4f177a4b4a7160dd80819f"
+    "mode": "gateway",
+    "slug": "uspto-office-actions",
+    "gatewaySlug": "uspto-office-actions",
+    "sourceHash": "v1-bed0bc55a862bd04ca1bb58df55da5935f6e816cc14d84566ab68661fa4badb2",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
