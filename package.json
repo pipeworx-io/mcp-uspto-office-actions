@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uspto-office-actions",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "USPTO patent prosecution history: office action full text, examiner citations, claim-level rejections (35 U.S.C. 101/102/103/112), enriched (AI/ML-extracted) citation metadata, and Commissioner final decisions on patent application petitions — the USPTO's own patent-examination records.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "uspto-office-actions",
     "gatewaySlug": "uspto-office-actions",
-    "sourceHash": "v1-bed0bc55a862bd04ca1bb58df55da5935f6e816cc14d84566ab68661fa4badb2",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-870064f93009bec8a75b9ec928bcf361ef11c38848ebcd64a678b393787ef10a",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }

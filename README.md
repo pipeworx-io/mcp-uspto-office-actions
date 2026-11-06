@@ -5,7 +5,7 @@ citations (plus AI/ML-extracted "enriched citation" metadata), claim-level
 rejection data (35 U.S.C. 101/102/103/112), and Commissioner final decisions on
 patent application petitions.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -150,7 +150,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
